@@ -1,0 +1,9 @@
+/* Add your block style here */
+.company-images {
+    display: flex;
+    justify-content: space-between;
+
+    .company-img {
+        filter: grayscale(100%);
+    }
+}

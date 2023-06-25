@@ -12,3 +12,9 @@
 <h2>{{$block.Title}}</h2>
 
 <p>{{$block.Content}}</p>
+
+<div class="company-images">
+    {{ range .page.Params.images }}
+    <img src="{{ . }}" class="company-img">
+    {{ end }}
+</div>
