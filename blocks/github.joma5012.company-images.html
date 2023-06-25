@@ -14,7 +14,8 @@
 <p>{{$block.Content}}</p>
 
 <div class="company-images">
-    {{ range .page.Params.images }}
+    <!-- {{ range .page.Params.images }} -->
+    {{ range $block.Images }}
     <img src="{{ . }}" class="company-img">
     {{ end }}
 </div>
